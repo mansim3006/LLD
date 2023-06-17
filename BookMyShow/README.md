@@ -1,38 +1,40 @@
-**BookMyShow**
+# BookMyShow
 
 ____________________________________________________________________________________________
 
-**Requirement Gathering for LLD**
+### Requirement Gathering for LLD
 ____________________________________________________________________________________________
 
-Actors: User/Client, Theartor operator, System
+### Actors: User/Client, Theartor operator, System
 
-Actions:
-**1. User/Client**-
-  a. register/login
-  b. search by location/movie/language
-  c. get theators/screens
-  d. select show
-  e. select seat(gold/normal) and add beverages
-  f. payment
-  g. get invoice/ticket(get notification)
-  h. cancel ticket
-  i. rate movie/theator
+____________________________________________________________________________________________
+
+### Actions:
+## User/Client-
+  * register/login  
+  * search by location/movie/language  
+  * get theators/screens  
+  * select show  
+  * select seat(gold/normal) and add beverages  
+  * payment  
+  * get invoice/ticket(get notification)  
+  * cancel ticket  
+  * rate movie and theator
   
-**2. Theator operator**-
-  a. login/register
-  b. getValidation
-  c. add/remove screens
-  d. add/remove seats
-  e. add/remove movies
-  f. availability
-  g. update seat type
-  h. update seat price
+## Theator operator
+  * login/register  
+  * get validation
+  * add/remove screens  
+  * add/remove seats  
+  * add/remove movies  
+  * availability  
+  * update seat type  
+  * update seat price
   
-**3. System-**
-  a. show nearest theators based on location/movie/language
-  b. manage concurrency
-  c. manage taxes
-  d. validated newely added theators
-  e. decide pricing strategy
-  f. movie recommendation
+## System
+  * show nearest theators based on location/movie/language  
+  * manage concurrency  
+  * manage taxes  
+  * validated newely added theators  
+  * decide pricing strategy  
+  * movie recommendation
